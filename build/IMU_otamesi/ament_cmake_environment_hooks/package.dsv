@@ -1,0 +1,4 @@
+source;share/IMU_otamesi/local_setup.bash
+source;share/IMU_otamesi/local_setup.dsv
+source;share/IMU_otamesi/local_setup.sh
+source;share/IMU_otamesi/local_setup.zsh

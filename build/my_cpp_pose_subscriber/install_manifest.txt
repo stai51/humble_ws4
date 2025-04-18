@@ -1,0 +1,16 @@
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/lib/my_cpp_pose_subscriber/pose_subscriber
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/ament_index/resource_index/package_run_dependencies/my_cpp_pose_subscriber
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/ament_index/resource_index/parent_prefix_path/my_cpp_pose_subscriber
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.sh
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.dsv
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.sh
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.dsv
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.bash
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.sh
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.zsh
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.dsv
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.dsv
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/ament_index/resource_index/packages/my_cpp_pose_subscriber
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig.cmake
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig-version.cmake
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.xml

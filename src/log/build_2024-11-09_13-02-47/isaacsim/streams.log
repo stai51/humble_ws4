@@ -1,0 +1,27 @@
+[0.223s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaacsim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaacsim -- -j16 -l16
+[0.603s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaacsim -- -j16 -l16
+[0.629s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaacsim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaacsim
+[0.642s] -- Install configuration: ""
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/scripts
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/scripts/run_isaacsim.py
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/scripts/open_isaacsim_stage.py
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/launch
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/launch/run_isaacsim.launch.py
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/lib/isaacsim/run_isaacsim.py
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/lib/isaacsim/open_isaacsim_stage.py
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/ament_index/resource_index/package_run_dependencies/isaacsim
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/ament_index/resource_index/parent_prefix_path/isaacsim
+[0.642s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/environment/ament_prefix_path.sh
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/environment/ament_prefix_path.dsv
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/environment/path.sh
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/environment/path.dsv
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/local_setup.bash
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/local_setup.sh
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/local_setup.zsh
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/local_setup.dsv
+[0.643s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/package.dsv
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/ament_index/resource_index/packages/isaacsim
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/cmake/isaacsimConfig.cmake
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/cmake/isaacsimConfig-version.cmake
+[0.643s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaacsim/share/isaacsim/package.xml
+[0.660s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaacsim

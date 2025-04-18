@@ -1,0 +1,22 @@
+[0.420s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber -- -j16 -l16
+[0.611s] [100%] Built target pose_subscriber
+[0.616s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber -- -j16 -l16
+[0.639s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber
+[0.650s] -- Install configuration: ""
+[0.650s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/lib/my_cpp_pose_subscriber/pose_subscriber
+[0.650s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/ament_index/resource_index/package_run_dependencies/my_cpp_pose_subscriber
+[0.651s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/ament_index/resource_index/parent_prefix_path/my_cpp_pose_subscriber
+[0.651s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.sh
+[0.651s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.dsv
+[0.651s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.sh
+[0.651s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.dsv
+[0.651s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.bash
+[0.651s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.sh
+[0.651s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.zsh
+[0.651s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.dsv
+[0.652s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.dsv
+[0.652s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/ament_index/resource_index/packages/my_cpp_pose_subscriber
+[0.652s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig.cmake
+[0.652s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig-version.cmake
+[0.652s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.xml
+[0.663s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber
