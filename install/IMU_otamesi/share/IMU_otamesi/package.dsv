@@ -1,0 +1,8 @@
+source;share/IMU_otamesi/hook/cmake_prefix_path.ps1
+source;share/IMU_otamesi/hook/cmake_prefix_path.dsv
+source;share/IMU_otamesi/hook/cmake_prefix_path.sh
+source;share/IMU_otamesi/local_setup.bash
+source;share/IMU_otamesi/local_setup.dsv
+source;share/IMU_otamesi/local_setup.ps1
+source;share/IMU_otamesi/local_setup.sh
+source;share/IMU_otamesi/local_setup.zsh

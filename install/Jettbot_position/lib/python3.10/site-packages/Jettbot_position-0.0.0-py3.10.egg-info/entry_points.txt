@@ -1,0 +1,3 @@
+[console_scripts]
+Jettbot_position = Jettbot_position.Jettbot_position:main
+

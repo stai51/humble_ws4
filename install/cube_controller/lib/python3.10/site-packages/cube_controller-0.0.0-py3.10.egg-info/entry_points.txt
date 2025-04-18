@@ -1,0 +1,3 @@
+[console_scripts]
+cube_controller = cube_controller.controller:main
+

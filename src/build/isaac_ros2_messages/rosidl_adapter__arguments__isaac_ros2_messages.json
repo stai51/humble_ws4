@@ -1,0 +1,10 @@
+{
+  "package_name": "isaac_ros2_messages",
+  "non_idl_tuples": [
+    "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_ros2_messages:srv/IsaacPose.srv",
+    "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_ros2_messages:srv/GetPrims.srv",
+    "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_ros2_messages:srv/GetPrimAttributes.srv",
+    "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_ros2_messages:srv/GetPrimAttribute.srv",
+    "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/isaac_ros2_messages:srv/SetPrimAttribute.srv"
+  ]
+}

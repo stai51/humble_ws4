@@ -1,0 +1,21 @@
+[0.957s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/isaac_ros_navigation_goal': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaac_ros_navigation_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/isaac_ros_navigation_goal build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaac_ros_navigation_goal/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data
+[1.123s] running egg_info
+[1.123s] writing ../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/PKG-INFO
+[1.123s] writing dependency_links to ../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/dependency_links.txt
+[1.123s] writing entry points to ../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/entry_points.txt
+[1.123s] writing requirements to ../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/requires.txt
+[1.123s] writing top-level names to ../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/top_level.txt
+[1.125s] reading manifest file '../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[1.126s] writing manifest file '../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.126s] running build_py
+[1.126s] running install
+[1.126s] running install_lib
+[1.128s] running install_data
+[1.128s] running install_egg_info
+[1.129s] removing '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal-0.0.1-py3.10.egg-info' (and everything under it)
+[1.130s] Copying ../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaac_ros_navigation_goal/lib/python3.10/site-packages/isaac_ros_navigation_goal-0.0.1-py3.10.egg-info
+[1.130s] running install_scripts
+[1.145s] Installing SetNavigationGoal script to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaac_ros_navigation_goal/lib/isaac_ros_navigation_goal
+[1.146s] writing list of installed files to '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaac_ros_navigation_goal/install.log'
+[1.169s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/navigation/isaac_ros_navigation_goal' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/isaac_ros_navigation_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/isaac_ros_navigation_goal build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaac_ros_navigation_goal/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data

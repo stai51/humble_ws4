@@ -1,0 +1,16 @@
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/lib/IMU_otamesi/IMU_otamesi
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/ament_index/resource_index/package_run_dependencies/IMU_otamesi
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/ament_index/resource_index/parent_prefix_path/IMU_otamesi
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/environment/ament_prefix_path.sh
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/environment/ament_prefix_path.dsv
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/environment/path.sh
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/environment/path.dsv
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/local_setup.bash
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/local_setup.sh
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/local_setup.zsh
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/local_setup.dsv
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/package.dsv
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/ament_index/resource_index/packages/IMU_otamesi
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/cmake/IMU_otamesiConfig.cmake
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/cmake/IMU_otamesiConfig-version.cmake
+/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/IMU_otamesi/share/IMU_otamesi/package.xml

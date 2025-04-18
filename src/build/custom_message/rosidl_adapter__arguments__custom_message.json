@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_message",
+  "non_idl_tuples": [
+    "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/custom_message:msg/SampleMsg.msg",
+    "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/custom_message:msg/PoseStamped.msg",
+    "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/custom_message:msg/ImuMsg.msg"
+  ]
+}

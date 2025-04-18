@@ -1,0 +1,30 @@
+[0.410s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber -- -j16 -l16
+[0.598s] [35m[1mConsolidate compiler generated dependencies of target pose_subscriber[0m
+[0.598s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o[0m
+[0.598s] In file included from [01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:3[m[K:
+[0.598s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.598s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.599s]       |  [01;35m[K^~~~~~~[m[K
+[6.141s] [100%] [32m[1mLinking CXX executable pose_subscriber[0m
+[6.406s] [100%] Built target pose_subscriber
+[6.412s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber -- -j16 -l16
+[6.429s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber
+[6.434s] -- Install configuration: ""
+[6.434s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/lib/my_cpp_pose_subscriber/pose_subscriber
+[6.436s] -- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/lib/my_cpp_pose_subscriber/pose_subscriber" to ""
+[6.436s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/ament_index/resource_index/package_run_dependencies/my_cpp_pose_subscriber
+[6.436s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/ament_index/resource_index/parent_prefix_path/my_cpp_pose_subscriber
+[6.436s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.sh
+[6.436s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.dsv
+[6.436s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.sh
+[6.436s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.dsv
+[6.437s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.bash
+[6.437s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.sh
+[6.437s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.zsh
+[6.437s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.dsv
+[6.437s] -- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.dsv
+[6.437s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/ament_index/resource_index/packages/my_cpp_pose_subscriber
+[6.437s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig.cmake
+[6.437s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig-version.cmake
+[6.437s] -- Up-to-date: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.xml
+[6.438s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber

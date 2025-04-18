@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (-) JobUnselected: {'identifier': 'carter_navigation'}
+[0.000365] (-) JobUnselected: {'identifier': 'custom_message'}
+[0.000392] (-) JobUnselected: {'identifier': 'isaac_ros2_messages'}
+[0.000411] (-) JobUnselected: {'identifier': 'isaac_ros_navigation_goal'}
+[0.000422] (-) JobUnselected: {'identifier': 'isaac_tutorials'}
+[0.000432] (-) JobUnselected: {'identifier': 'isaacsim'}
+[0.000441] (-) JobUnselected: {'identifier': 'my_ros2_package'}
+[0.000451] (my_cpp_pose_subscriber) JobQueued: {'identifier': 'my_cpp_pose_subscriber', 'dependencies': OrderedDict()}
+[0.000462] (my_cpp_pose_subscriber) JobStarted: {'identifier': 'my_cpp_pose_subscriber'}
+[0.008794] (my_cpp_pose_subscriber) JobProgress: {'identifier': 'my_cpp_pose_subscriber', 'progress': 'cmake'}
+[0.008931] (my_cpp_pose_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp', '-DCMAKE_INSTALL_PREFIX=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber'], 'cwd': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotdeveloper02'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotdeveloper02'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2136'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0030c9a2a58c5f9540039268671b5347'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotdeveloper02'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotdeveloper02'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/robotdeveloper02/anaconda3/condabin:/opt/ros/humble/bin:/home/robotdeveloper02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MagnateXT:@/tmp/.ICE-unix/2136,unix/MagnateXT:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d306eb27_f0c6_48f6_8582_3a4a6fe5308d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.355'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robotdeveloper02/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robotdeveloper02/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0030c9a2a58c5f9540039268671b5347'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099860] (-) TimerEvent: {}
+[0.200127] (-) TimerEvent: {}
+[0.230377] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.300254] (-) TimerEvent: {}
+[0.342827] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.351111] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400351] (-) TimerEvent: {}
+[0.403616] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.408409] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.408796] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.409326] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.411855] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.465956] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.471121] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.471349] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.471640] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.476197] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500422] (-) TimerEvent: {}
+[0.582192] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600514] (-) TimerEvent: {}
+[0.661204] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700576] (-) TimerEvent: {}
+[0.704850] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.709652] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.719225] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.733831] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.749517] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.793228] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.796241] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800628] (-) TimerEvent: {}
+[0.866977] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.886915] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.900720] (-) TimerEvent: {}
+[0.914702] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.924478] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.982689] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.983016] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000825] (-) TimerEvent: {}
+[1.038409] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.039082] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.091359] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.100872] (-) TimerEvent: {}
+[1.106237] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.116910] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.130735] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.132146] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.132248] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.200955] (-) TimerEvent: {}
+[1.223151] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.285117] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.285271] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.285317] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.285699] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.286328] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.286868] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.288038] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.288122] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.288608] (my_cpp_pose_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.289917] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.299933] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[1.301011] (-) TimerEvent: {}
+[1.301118] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber\n'}
+[1.307018] (my_cpp_pose_subscriber) CommandEnded: {'returncode': 0}
+[1.307511] (my_cpp_pose_subscriber) JobProgress: {'identifier': 'my_cpp_pose_subscriber', 'progress': 'build'}
+[1.307947] (my_cpp_pose_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber', '--', '-j16', '-l16'], 'cwd': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotdeveloper02'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotdeveloper02'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2136'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0030c9a2a58c5f9540039268671b5347'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotdeveloper02'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotdeveloper02'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/robotdeveloper02/anaconda3/condabin:/opt/ros/humble/bin:/home/robotdeveloper02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MagnateXT:@/tmp/.ICE-unix/2136,unix/MagnateXT:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d306eb27_f0c6_48f6_8582_3a4a6fe5308d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.355'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robotdeveloper02/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robotdeveloper02/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0030c9a2a58c5f9540039268671b5347'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.340805] (my_cpp_pose_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.o\x1b[0m\n'}
+[1.401151] (-) TimerEvent: {}
+[1.501429] (-) TimerEvent: {}
+[1.601754] (-) TimerEvent: {}
+[1.642014] (my_cpp_pose_subscriber) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/calc_cpp/src/pose_subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[1.642156] (my_cpp_pose_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.642221] (my_cpp_pose_subscriber) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[1.642287] (my_cpp_pose_subscriber) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.701843] (-) TimerEvent: {}
+[1.802070] (-) TimerEvent: {}
+[1.902315] (-) TimerEvent: {}
+[2.002556] (-) TimerEvent: {}
+[2.102790] (-) TimerEvent: {}
+[2.203026] (-) TimerEvent: {}
+[2.303312] (-) TimerEvent: {}
+[2.403561] (-) TimerEvent: {}
+[2.503834] (-) TimerEvent: {}
+[2.604059] (-) TimerEvent: {}
+[2.704313] (-) TimerEvent: {}
+[2.804560] (-) TimerEvent: {}
+[2.904805] (-) TimerEvent: {}
+[3.005101] (-) TimerEvent: {}
+[3.105346] (-) TimerEvent: {}
+[3.205572] (-) TimerEvent: {}
+[3.305802] (-) TimerEvent: {}
+[3.406064] (-) TimerEvent: {}
+[3.506287] (-) TimerEvent: {}
+[3.606548] (-) TimerEvent: {}
+[3.706821] (-) TimerEvent: {}
+[3.807082] (-) TimerEvent: {}
+[3.907320] (-) TimerEvent: {}
+[4.007551] (-) TimerEvent: {}
+[4.107787] (-) TimerEvent: {}
+[4.208071] (-) TimerEvent: {}
+[4.308304] (-) TimerEvent: {}
+[4.408552] (-) TimerEvent: {}
+[4.508834] (-) TimerEvent: {}
+[4.609157] (-) TimerEvent: {}
+[4.709429] (-) TimerEvent: {}
+[4.809732] (-) TimerEvent: {}
+[4.910012] (-) TimerEvent: {}
+[5.010243] (-) TimerEvent: {}
+[5.110521] (-) TimerEvent: {}
+[5.210809] (-) TimerEvent: {}
+[5.311083] (-) TimerEvent: {}
+[5.411320] (-) TimerEvent: {}
+[5.511552] (-) TimerEvent: {}
+[5.611782] (-) TimerEvent: {}
+[5.712071] (-) TimerEvent: {}
+[5.812346] (-) TimerEvent: {}
+[5.912649] (-) TimerEvent: {}
+[6.012925] (-) TimerEvent: {}
+[6.113176] (-) TimerEvent: {}
+[6.213432] (-) TimerEvent: {}
+[6.313694] (-) TimerEvent: {}
+[6.413965] (-) TimerEvent: {}
+[6.514214] (-) TimerEvent: {}
+[6.614460] (-) TimerEvent: {}
+[6.714723] (-) TimerEvent: {}
+[6.814949] (-) TimerEvent: {}
+[6.915193] (-) TimerEvent: {}
+[7.015464] (-) TimerEvent: {}
+[7.101474] (my_cpp_pose_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pose_subscriber\x1b[0m\n'}
+[7.115564] (-) TimerEvent: {}
+[7.215799] (-) TimerEvent: {}
+[7.316029] (-) TimerEvent: {}
+[7.405025] (my_cpp_pose_subscriber) StdoutLine: {'line': b'[100%] Built target pose_subscriber\n'}
+[7.412310] (my_cpp_pose_subscriber) CommandEnded: {'returncode': 0}
+[7.416089] (-) TimerEvent: {}
+[7.427417] (my_cpp_pose_subscriber) JobProgress: {'identifier': 'my_cpp_pose_subscriber', 'progress': 'install'}
+[7.433540] (my_cpp_pose_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber'], 'cwd': '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotdeveloper02'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotdeveloper02'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2136'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0030c9a2a58c5f9540039268671b5347'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotdeveloper02'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotdeveloper02'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/robotdeveloper02/anaconda3/condabin:/opt/ros/humble/bin:/home/robotdeveloper02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MagnateXT:@/tmp/.ICE-unix/2136,unix/MagnateXT:/tmp/.ICE-unix/2136'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d306eb27_f0c6_48f6_8582_3a4a6fe5308d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.355'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/robotdeveloper02/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/build/my_cpp_pose_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/robotdeveloper02/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0030c9a2a58c5f9540039268671b5347'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.438339] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.438457] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/lib/my_cpp_pose_subscriber/pose_subscriber\n'}
+[7.439995] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Set runtime path of "/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/lib/my_cpp_pose_subscriber/pose_subscriber" to ""\n'}
+[7.440081] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/ament_index/resource_index/package_run_dependencies/my_cpp_pose_subscriber\n'}
+[7.440171] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/ament_index/resource_index/parent_prefix_path/my_cpp_pose_subscriber\n'}
+[7.440271] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.sh\n'}
+[7.440334] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/ament_prefix_path.dsv\n'}
+[7.440396] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.sh\n'}
+[7.440462] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/environment/path.dsv\n'}
+[7.440530] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.bash\n'}
+[7.440599] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.sh\n'}
+[7.440662] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.zsh\n'}
+[7.440723] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/local_setup.dsv\n'}
+[7.440792] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.dsv\n'}
+[7.440882] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/ament_index/resource_index/packages/my_cpp_pose_subscriber\n'}
+[7.440959] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig.cmake\n'}
+[7.441011] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/cmake/my_cpp_pose_subscriberConfig-version.cmake\n'}
+[7.441071] (my_cpp_pose_subscriber) StdoutLine: {'line': b'-- Installing: /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/install/my_cpp_pose_subscriber/share/my_cpp_pose_subscriber/package.xml\n'}
+[7.442277] (my_cpp_pose_subscriber) CommandEnded: {'returncode': 0}
+[7.473291] (my_cpp_pose_subscriber) JobEnded: {'identifier': 'my_cpp_pose_subscriber', 'rc': 0}
+[7.473760] (-) EventReactorShutdown: {}

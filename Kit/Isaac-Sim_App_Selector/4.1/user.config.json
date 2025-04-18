@@ -1,0 +1,119 @@
+{
+    "persistent": {
+        "renderer": {
+            "startupMessageDisplayed": false,
+            "raytracingOmm": {
+                "enabled": false
+            }
+        },
+        "resourcemonitor": {
+            "timeBetweenQueries": -1.0,
+            "sendDeviceMemoryWarning": true,
+            "deviceMemoryWarnMB": 1,
+            "deviceMemoryWarnFraction": 0.10000000149011612,
+            "sendHostMemoryWarning": true,
+            "hostMemoryWarnMB": 1,
+            "hostMemoryWarnFraction": 0.10000000149011612
+        },
+        "simulation": {
+            "defaultMetersPerUnit": 0.01,
+            "minFrameRate": 30
+        },
+        "audio": {
+            "context": {
+                "streamerFile": "",
+                "speakerMode": "auto-detect",
+                "deviceName": "",
+                "captureDeviceName": "",
+                "autoStreamThreshold": 0,
+                "audioPlayerAutoStreamThreshold": 256,
+                "masterVolume": 1.0,
+                "usdVolume": 1.0,
+                "spatialVolume": 1.0,
+                "nonSpatialVolume": 1.0
+            }
+        },
+        "rtx": {
+            "resourcemanager": {
+                "placeholderTextureColor": {
+                    "0": 0.0,
+                    "1": 1.0,
+                    "2": 1.0
+                }
+            },
+            "ecoMode": {
+                "enabled": true
+            }
+        },
+        "ext": {
+            "omni.isaac.selector": {
+                "default_app": "omni.isaac.sim",
+                "auto_start": false,
+                "persistent_selector": false,
+                "show_console": true,
+                "extra_args": "",
+                "ros_bridge_extension": 0,
+                "ros_internal_libs": 0
+            }
+        },
+        "app": {
+            "transform": {
+                "gizmoUseSRT": false
+            },
+            "camera": {
+                "controllerUseSRT": false
+            },
+            "primCreation": {
+                "DefaultRotationOrder": "XYZ",
+                "DefaultCameraRotationOrder": "YXZ",
+                "DefaultXformOpType": "Scale, Rotate, Translate",
+                "typedDefaults": {
+                    "camera": {
+                        "focalLength": 18.147562,
+                        "clippingRange": [
+                            1.0,
+                            10000000.0
+                        ],
+                        "focusDistance": 400
+                    },
+                    "orthoCamera": {
+                        "clippingRange": [
+                            20000.0,
+                            10000000.0
+                        ]
+                    }
+                },
+                "highQuality": true
+            },
+            "rendering": {
+                "whiteModeExceptions": "GizmoTex, Gizmo, OmniGlass, SunsetSkyMat"
+            },
+            "viewport": {
+                "pickingMode": "type:ALL",
+                "pickingModeNoKinds": true,
+                "pickingModeIncludeRef": true
+            },
+            "stage": {
+                "movePrimInPlace": true,
+                "instanceableOnCreatingReference": false,
+                "upAxis": "Y",
+                "interpolationType": "Linear",
+                "timeCodesPerSecond": 60.0,
+                "timeCodeRange": {
+                    "0": 0.0,
+                    "1": 100.0
+                },
+                "defaultPrimName": "World"
+            },
+            "usd": {
+                "muteUsdCodingError": false,
+                "usdLuxUnprefixedCompat": true
+            },
+            "window": {
+                "maximized": false,
+                "width": 500,
+                "height": 565
+            }
+        }
+    }
+}
