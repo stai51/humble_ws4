@@ -1,0 +1,21 @@
+[1.322s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/jetbot_controller': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetbot_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/install.log --single-version-externally-managed install_data
+[1.492s] running egg_info
+[1.493s] writing ../../build/jetbot_controller/jetbot_controller.egg-info/PKG-INFO
+[1.493s] writing dependency_links to ../../build/jetbot_controller/jetbot_controller.egg-info/dependency_links.txt
+[1.493s] writing entry points to ../../build/jetbot_controller/jetbot_controller.egg-info/entry_points.txt
+[1.493s] writing requirements to ../../build/jetbot_controller/jetbot_controller.egg-info/requires.txt
+[1.493s] writing top-level names to ../../build/jetbot_controller/jetbot_controller.egg-info/top_level.txt
+[1.494s] reading manifest file '../../build/jetbot_controller/jetbot_controller.egg-info/SOURCES.txt'
+[1.495s] writing manifest file '../../build/jetbot_controller/jetbot_controller.egg-info/SOURCES.txt'
+[1.495s] running build
+[1.495s] running build_py
+[1.495s] running install
+[1.495s] running install_lib
+[1.497s] running install_data
+[1.497s] running install_egg_info
+[1.498s] removing '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages/jetbot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.499s] Copying ../../build/jetbot_controller/jetbot_controller.egg-info to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages/jetbot_controller-0.0.0-py3.10.egg-info
+[1.499s] running install_scripts
+[1.516s] Installing jetbot_controller script to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/jetbot_controller
+[1.517s] writing list of installed files to '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/install.log'
+[1.546s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/jetbot_controller' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/jetbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetbot_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/jetbot_controller/install.log --single-version-externally-managed install_data

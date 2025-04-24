@@ -1,0 +1,21 @@
+[1.954s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/Jettbot_position': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Jettbot_position build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/install.log --single-version-externally-managed install_data
+[2.249s] running egg_info
+[2.253s] writing ../../build/Jettbot_position/Jettbot_position.egg-info/PKG-INFO
+[2.253s] writing dependency_links to ../../build/Jettbot_position/Jettbot_position.egg-info/dependency_links.txt
+[2.253s] writing entry points to ../../build/Jettbot_position/Jettbot_position.egg-info/entry_points.txt
+[2.254s] writing requirements to ../../build/Jettbot_position/Jettbot_position.egg-info/requires.txt
+[2.254s] writing top-level names to ../../build/Jettbot_position/Jettbot_position.egg-info/top_level.txt
+[2.254s] reading manifest file '../../build/Jettbot_position/Jettbot_position.egg-info/SOURCES.txt'
+[2.255s] writing manifest file '../../build/Jettbot_position/Jettbot_position.egg-info/SOURCES.txt'
+[2.256s] running build
+[2.256s] running build_py
+[2.256s] running install
+[2.257s] running install_lib
+[2.258s] running install_data
+[2.258s] running install_egg_info
+[2.260s] removing '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib/python3.10/site-packages/Jettbot_position-0.0.0-py3.10.egg-info' (and everything under it)
+[2.260s] Copying ../../build/Jettbot_position/Jettbot_position.egg-info to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib/python3.10/site-packages/Jettbot_position-0.0.0-py3.10.egg-info
+[2.261s] running install_scripts
+[2.285s] Installing Jettbot_position script to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib/Jettbot_position
+[2.285s] writing list of installed files to '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/install.log'
+[2.320s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/Jettbot_position' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/Jettbot_position/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Jettbot_position build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/Jettbot_position/install.log --single-version-externally-managed install_data

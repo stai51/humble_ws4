@@ -25,7 +25,7 @@ class JettbotPosition(Node):
         self.fixed_output = 0.0  # 固定出力
         self.count = 0  # メッセージ受信回数
         self.ignore_threshold = 1000  # 無視する受信回数
-        self.trigger_threshold = 4000
+        self.trigger_threshold = 6300
 
 
     def listener_callback(self, msg):

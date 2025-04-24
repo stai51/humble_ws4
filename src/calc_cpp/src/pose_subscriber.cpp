@@ -79,6 +79,12 @@ class calc:public rclcpp::Node
 
         x = Eigen::VectorXd::Zero(10);
 
+        if(trajectory==1){
+            specified_time=6300;
+        }else if (trajectory==0){
+            specified_time=4000;
+        }
+
         estimated_pose_publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("estimated_pose", 10);
 
         for (size_t i = 0; i < 5; ++i) {
@@ -122,6 +128,8 @@ class calc:public rclcpp::Node
     rclcpp::Subscription<custom_message::msg::ImuMsg>::SharedPtr imu_subscriber4_;
     rclcpp::Subscription<custom_message::msg::ImuMsg>::SharedPtr imu_subscriber5_;
     int gizi=1;//疑似アンカーありなら1なしなら0
+    int trajectory=1;//軌道が円なら1、直線なら0
+    int specified_time;
     Eigen::VectorXd x;  // 状態ベクトル
     int timer=0;
     rclcpp::Time last_time;
@@ -581,7 +589,7 @@ class calc:public rclcpp::Node
             msg.data = timer;
             time_publisher_->publish(msg);
             RCLCPP_INFO(this->get_logger(),"Time is %.d",timer);
-            if (timer == 4000) {
+            if (timer == specified_time) {
                 for (size_t i = 0; i < 5; ++i) {
                     anchor_positions_at_6300[i] = Anchor_positions[i];  // 位置情報を保存
                     available_anchor_at_6300[i] = available_anchor[i];  // available_anchorも保存
@@ -602,11 +610,15 @@ class calc:public rclcpp::Node
             
             for (size_t anchor_idx = 0; anchor_idx < 5; ++anchor_idx) {
                 time[anchor_idx]=time[anchor_idx]+1;
+                double multipath_rand[5];
+                for (int i = 0; i < 5; ++i) {
+                    multipath_rand[i] = uniform_dist(gen); 
+                }
                 if (available_anchor[anchor_idx] == 1&&time[anchor_idx]>500) {
                     noise_dist = std::normal_distribution<>(0.0, 0.01);  // 推定済みかつ移動していない場合のノイズ
                     sigma = 0.15;
                 }else if (is_resampling_started[anchor_idx] == 1) {
-                    noise_dist = std::normal_distribution<>(0.0, 0.03);  // リサンプリング後のノイズ
+                    noise_dist = std::normal_distribution<>(0.0, 0.05);  // リサンプリング後のノイズ
                     sigma = 0.3;
                 }else{
                     noise_dist = std::normal_distribution<>(0.0, 0.1); 
@@ -631,22 +643,20 @@ class calc:public rclcpp::Node
                 for (auto &p : particle_groups_[anchor_idx]) {
                     double likelihood = 1;
                     // ロボットの位置を使用
-                    if(timer<4000){
+                    if(timer<specified_time){
                         for (size_t i = 0; i < 5; ++i) {
                             double expected_distance = tf2::tf2Distance(p.position, Robot_anchor_positions[i]);
-                            double actual_distance = tf2::tf2Distance(Anchor_positions[anchor_idx],Robot_anchor_positions[i]);
-                            actual_distance =actual_distance+0.05*noise_values[i];
+                            double truth_distance = tf2::tf2Distance(Anchor_positions[anchor_idx],Robot_anchor_positions[i]);
                             // 尤度の計算
-                            double diff = expected_distance - actual_distance;
+                            double diff = expected_distance - truth_distance;
                             double likelihood_component = (1.0 / sqrt_2_pi_sigma) * std::exp(-(diff * diff) / (2 * sigma_squared));
                             likelihood *= likelihood_component;
                         }
                     }else{
                         double expected_distance = tf2::tf2Distance(p.position, Robot_anchor_positions[4]);
-                        double actual_distance = tf2::tf2Distance(Anchor_positions[anchor_idx],Robot_anchor_positions[4]);
-                        actual_distance =actual_distance+0.05* noise_values[4];
+                        double truth_distance = tf2::tf2Distance(Anchor_positions[anchor_idx],Robot_anchor_positions[4]);
                         // 尤度の計算
-                        double diff = expected_distance - actual_distance;
+                        double diff = expected_distance - truth_distance;
                         double likelihood_component = (1.0 / sqrt_2_pi_sigma) * std::exp(-(diff * diff) / (2 * sigma_squared));
                         likelihood *= likelihood_component;
                     
@@ -663,8 +673,14 @@ class calc:public rclcpp::Node
                                 tf2::Vector3 static_anchor_position = estimated_positions_history[i].back();  // 最新の推定位置を利用
 
                                 double expected_distance = tf2::tf2Distance(p.position, static_anchor_position);
-                                double actual_distance = tf2::tf2Distance(Anchor_positions[anchor_idx], static_anchor_position);
-
+                                double truth_distance = tf2::tf2Distance(Anchor_positions[anchor_idx], static_anchor_position);
+                                double actual_distance=truth_distance+0.05*noise_values[i];
+                                //確率でマルチパスノイズを付与
+                                if(0.01<=multipath_rand[i]&&multipath_rand[i]<=0.03){
+                                    actual_distance=truth_distance+0.3;
+                                }else if(0.01>multipath_rand[i]){
+                                    actual_distance=truth_distance+0.5;
+                                }
                                 // 尤度の計算
                                 double diff = expected_distance - actual_distance;
                                 double likelihood_component = (1.0 / sqrt_2_pi_sigma) * std::exp(-(diff * diff) / (2 * sigma_squared));
@@ -677,15 +693,21 @@ class calc:public rclcpp::Node
                             p.weight *= 0.5;
                         }
                     }//
-                    if(timer>1&&timer<=4000&&gizi==1&&anchor_idx==4){//移動前のタグ5のみ推定
+                    if(timer>1&&timer<=specified_time&&gizi==1&&anchor_idx==4){//移動前のタグ5のみ推定
                         // 推定済みかつ動いていないアンカーを追加で使用
                         for (size_t i = 0; i < 5; ++i) {
                             if (available_anchor[i] == 1 && anchor_idx!=i) {  // 利用可能なアンカーのみを使用
                                 tf2::Vector3 static_anchor_position = estimated_positions_history[i].back();  // 最新の推定位置を利用
 
                                 double expected_distance = tf2::tf2Distance(p.position, static_anchor_position);
-                                double actual_distance = tf2::tf2Distance(Anchor_positions[anchor_idx], static_anchor_position);
-
+                                double truth_distance = tf2::tf2Distance(Anchor_positions[anchor_idx], static_anchor_position);
+                                double actual_distance=truth_distance+0.05*noise_values[i];
+                                //確率でマルチパスノイズを付与
+                                if(0.01<=multipath_rand[i]&&multipath_rand[i]<=0.03){
+                                    actual_distance=truth_distance+0.3;
+                                }else if(0.01>multipath_rand[i]){
+                                    actual_distance=truth_distance+0.5;
+                                }
                                 // 尤度の計算
                                 double diff = expected_distance - actual_distance;
                                 double likelihood_component = (1.0 / sqrt_2_pi_sigma) * std::exp(-(diff * diff) / (2 * sigma_squared));
@@ -698,13 +720,19 @@ class calc:public rclcpp::Node
                             p.weight *= 0.5;
                         }
                     }
-                    if(timer>4000&&gizi==1&&anchor_idx==4){//移動後のタグ5のみ推定
+                    if(timer>specified_time&&gizi==1&&anchor_idx==4){//移動後のタグ5のみ推定
                         // 推定済みかつ動いていないアンカーを追加で使用
                         for (size_t i = 0; i < 5; ++i) {
                             if ( anchor_idx!=i&&available_anchor_at_6300[i] == 1) {  // 利用可能なアンカーのみを使用
                                 double expected_distance = tf2::tf2Distance(p.position, anchor_positions_at_6300[i]);
-                                double actual_distance = tf2::tf2Distance(Anchor_positions[anchor_idx], anchor_positions_at_6300[i]);
-
+                                double truth_distance = tf2::tf2Distance(Anchor_positions[anchor_idx], anchor_positions_at_6300[i]);
+                                double actual_distance=truth_distance+0.05*noise_values[i];
+                                //確率でマルチパスノイズを付与
+                                if(0.01<=multipath_rand[i]&&multipath_rand[i]<=0.03){
+                                    actual_distance=truth_distance+0.3;
+                                }else if(0.01>multipath_rand[i]){
+                                    actual_distance=truth_distance+0.5;
+                                }
                                 // 尤度の計算
                                 double diff = expected_distance - actual_distance;
                                 double likelihood_component = (1.0 / sqrt_2_pi_sigma) * std::exp(-(diff * diff) / (2 * sigma_squared));
@@ -741,10 +769,10 @@ class calc:public rclcpp::Node
                     resample_particles(anchor_idx);
                     
                 }
-                if(timer<4000){
+                if(timer<specified_time){
                     publish_particle_markers(anchor_idx);
                 }
-                if(timer>=4000&&anchor_idx==4){
+                if(timer>=specified_time&&anchor_idx==4){
                     publish_particle_markers(anchor_idx);
                 }
             }
@@ -853,7 +881,7 @@ class calc:public rclcpp::Node
         RCLCPP_INFO(this->get_logger(),"Total Error Past=%.3f",previous_errors_[anchor_idx]);
                 // 誤差をパブリッシュ
         std_msgs::msg::Float64 error_msg;
-        if(timer>=4000&&anchor_idx<4){
+        if(timer>=specified_time&&anchor_idx<4){
             total_error=previous_errors_[anchor_idx];
         }
         RCLCPP_INFO(this->get_logger(),
@@ -912,7 +940,7 @@ class calc:public rclcpp::Node
         marker_msg.color.r = 0.0;  // 赤色
         marker_msg.color.g = 0.0;
         marker_msg.color.b = 1.0;
-        if(timer>=4000&&anchor_idx<4){
+        if(timer>=specified_time&&anchor_idx<4){
             marker_msg.color.a = 0.0;  // 不透明度
         }else{
             marker_msg.color.a = 1.0;  // 不透明度

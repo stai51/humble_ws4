@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/cube_controller/cube_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/cube_controller/cube_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/cube_controller/cube_controller.egg-info/entry_points.txt
+writing requirements to ../../build/cube_controller/cube_controller.egg-info/requires.txt
+writing top-level names to ../../build/cube_controller/cube_controller.egg-info/top_level.txt
+reading manifest file '../../build/cube_controller/cube_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/cube_controller/cube_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages/cube_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/cube_controller/cube_controller.egg-info to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages/cube_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cube_controller script to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/cube_controller
+writing list of installed files to '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/install.log'

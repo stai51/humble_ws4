@@ -1,0 +1,21 @@
+[1.968s] Invoking command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cube_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/install.log --single-version-externally-managed install_data
+[2.247s] running egg_info
+[2.248s] writing ../../build/cube_controller/cube_controller.egg-info/PKG-INFO
+[2.249s] writing dependency_links to ../../build/cube_controller/cube_controller.egg-info/dependency_links.txt
+[2.249s] writing entry points to ../../build/cube_controller/cube_controller.egg-info/entry_points.txt
+[2.249s] writing requirements to ../../build/cube_controller/cube_controller.egg-info/requires.txt
+[2.249s] writing top-level names to ../../build/cube_controller/cube_controller.egg-info/top_level.txt
+[2.251s] reading manifest file '../../build/cube_controller/cube_controller.egg-info/SOURCES.txt'
+[2.252s] writing manifest file '../../build/cube_controller/cube_controller.egg-info/SOURCES.txt'
+[2.252s] running build
+[2.252s] running build_py
+[2.253s] running install
+[2.253s] running install_lib
+[2.254s] running install_data
+[2.254s] running install_egg_info
+[2.256s] removing '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages/cube_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.256s] Copying ../../build/cube_controller/cube_controller.egg-info to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages/cube_controller-0.0.0-py3.10.egg-info
+[2.257s] running install_scripts
+[2.284s] Installing cube_controller script to /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/cube_controller
+[2.285s] writing list of installed files to '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/install.log'
+[2.331s] Invoked command in '/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/cube_controller' returned '0': PYTHONPATH=/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/install/cube_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cube_controller build --build-base /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/build install --record /home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/build/cube_controller/install.log --single-version-externally-managed install_data

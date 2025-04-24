@@ -1,0 +1,33 @@
+WARNING: Package name "IMU_otamesi" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::init_particles(int)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:166:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  166 |         if ([01;35m[Kgrid_size * grid_size * grid_size < particle_count_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:183:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  183 |             for (int i = 0; i < grid_size && [01;35m[Kindex < particle_count_[m[K; ++i) {
+      |                                              [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:184:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  184 |                 for (int j = 0; j < grid_size && [01;35m[Kindex < particle_count_[m[K; ++j) {
+      |                                                  [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:185:60:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  185 |                     for (int k = 0; k < grid_size && [01;35m[Kindex < particle_count_[m[K; ++k) {
+      |                                                      [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[KEigen::Vector3d calc::displace_cube(double)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:448:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  448 |         if ([01;35m[Kmarker_history_.size() > max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::estimate_position(size_t, double)[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:463:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kanchor_idx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  463 |     void estimate_position([01;35m[Ksize_t anchor_idx[m[K,double dt) {
+      |                            [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:463:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  463 |     void estimate_position(size_t anchor_idx,[01;35m[Kdouble dt[m[K) {
+      |                                              [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_robot_marker()[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:551:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  551 |         if ([01;35m[Krobot_marker_history_.size() > robot_max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:[m[K In member function ‘[01m[Kvoid calc::publish_anchor4_marker()[m[K’:
+[01m[K/home/robotdeveloper02/IsaacSim-ros_workspaces-main/humble_ws/src/IMU_otamesi/src/IMU.cpp:588:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  588 |         if ([01;35m[Kanchor4_marker_history_.size() > anchor4_max_markers_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
